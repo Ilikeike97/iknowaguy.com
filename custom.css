@@ -1,4 +1,13 @@
 /* Nav bar css */
 .navbar {
     background-color: #5B64AE !important;
+    align-items: left;
+    width: flex;
+   
+}
+.card{
+    padding: 5%;
+    margin: 15px;
+    background-color: #F27405;
+    .h-100;
 }
