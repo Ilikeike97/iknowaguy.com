@@ -27,7 +27,7 @@ footer {
     background-color: #F27405;
     color: black;
     border-color: #F27405;
-    --bs-btn-hover-bg: #5b64ae;
-    --bs-btn-hover-border-color: #5b64ae;
+    /*--bs-btn-hover-bg: #5b64ae;
+    --bs-btn-hover-border-color: #5b64ae;*/
 }
 
