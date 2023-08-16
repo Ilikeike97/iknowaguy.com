@@ -21,3 +21,13 @@ footer {
     margin: 15px;
     background-color: #F27405;
 }
+
+/*button*/
+.btn {
+    background-color: #F27405;
+    color: black;
+    border-color: #F27405;
+    --bs-btn-hover-bg: #5b64ae;
+    --bs-btn-hover-border-color: #5b64ae;
+}
+
