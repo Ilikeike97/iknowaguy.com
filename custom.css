@@ -23,22 +23,6 @@ footer {
 
 
 
-.mark-ford-card,
-.mark-ford-card * {
-  box-sizing: border-box;
-}
-.mark-ford-card {
-  border-radius: 8px;
-  border-style: solid;
-  border-color: var(--blue, #5b64ae);
-  border-width: 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: relative;
-}
 .card {
   background: var(--blue, #5b64ae);
   border-radius: 8px;
@@ -57,6 +41,10 @@ footer {
   );
   overflow: hidden;
 }
+
+.Card Container{
+   overflow: hidden;
+}
 .image {
   background: #ffffff;
   border-style: solid;
@@ -67,10 +55,27 @@ footer {
   height: 235px;
   position: relative;
 }
+
+.card h-100{
+   padding: auto;
+}
+.container content-space-1{
+   float:none;
+   padding: 20px;
+}
+.row
+
+.card-title{
+   color:white;
+   font-weight: 600;}
+.card-body{
+   color:#ffffff;
+   font-weight: 500;}
+
 .card-body {
   background: var(--blue, #5b64ae);
   border-style: solid;
-  border-color: #000000;
+  border-color: #5B64AE;
   border-width: 1px;
   padding: 24px;
   display: flex;
