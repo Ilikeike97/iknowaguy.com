@@ -19,6 +19,412 @@ footer {
 }
 
 /*Card css*/
+
+
+
+
+.mark-ford-card,
+.mark-ford-card * {
+  box-sizing: border-box;
+}
+.mark-ford-card {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--blue, #5b64ae);
+  border-width: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.card {
+  background: var(--blue, #5b64ae);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  position: relative;
+  box-shadow: var(
+    --cardshadow-box-shadow,
+    0px 10px 20px -2px rgba(0, 0, 0, 0.04),
+    0px 2px 15px -3px rgba(0, 0, 0, 0.07)
+  );
+  overflow: hidden;
+}
+.image {
+  background: #ffffff;
+  border-style: solid;
+  border-color: var(--blue, #5b64ae);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 235px;
+  position: relative;
+}
+.card-body {
+  background: var(--blue, #5b64ae);
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.card-title-margin-bottom {
+  padding: 0px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  text-decoration-color: white;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.heading-h-5 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--h-4, 400 28.43px "Oxygen", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.paragraph-margin-bottom {
+  padding: 0px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.paragraph-standard {
+  color: #ffffff;
+  text-align: left;
+  font: var(--paragraph, 400 16px "Open Sans", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.button {
+  background: var(--orange, rgba(242, 116, 5, 0.75));
+  border-radius: 4px;
+  padding: 10px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 9px -4px rgba(59, 113, 202, 1);
+  overflow: hidden;
+}
+.button2 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Oxygen", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --orange: rgba(242, 116, 5, 0.75);
+    --light-blue: #d0d9f2;
+    --yellow: #f2b705;
+    --blue: #5b64ae;
+  
+    /* Fonts */
+    --h-1: 400 67.34px "Oxygen", sans-serif;
+    --h-2: 400 50.52px "Oxygen", sans-serif;
+    --h-3: 400 37.9px "Oxygen", sans-serif;
+    --h-4: 400 28.43px "Oxygen", sans-serif;
+    --h-5: 400 16px "Oxygen", sans-serif;
+    --paragraph: 400 16px "Open Sans", sans-serif;
+    --small: 400 12px "Open Sans", sans-serif;
+  
+    /* Effects */
+  }
+  .card-card-with-image, .card-card-with-image * {
+    box-sizing: border-box;
+    }
+.card-card-with-image {
+   background: var(--white, #ffffff);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 352px;
+    position: relative;
+    box-shadow: var(--cardshadow-box-shadow, 0px 10px 20px -2px rgba(0, 0, 0, 0.04), 0px 2px 15px -3px rgba(0, 0, 0, 0.07));
+    overflow: hidden;
+   }
+
+.image {
+   flex-shrink: 0;
+    width: 352px;
+    height: 235px;
+    position: relative;
+   }
+
+.card-body {
+   background: #5b64ae;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.card-title-margin-bottom {
+   padding: 0px 0px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.heading {
+   display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.heading-h-5 {
+   color: #ffffff;
+    text-align: left;
+    font: var(--heading-h-5, 500 20px/120% 'Roboto', sans-serif);
+    position: relative;
+    flex: 1;
+   }
+
+.paragraph-margin-bottom {
+   padding: 0px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.paragraph {
+   display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.paragraph-standard {
+   color: var(--light, #fbfbfb);
+    text-align: left;
+    font: 400 16px 'Open Sans', sans-serif;
+    position: relative;
+    flex: 1;
+   }
+
+.button {
+   background: #f27405;
+    border-radius: 4px;
+    padding: 10px 24px 8px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 0px 4px 9px -4px rgba(59, 113, 202, 1.00);
+    overflow: hidden;
+   }
+
+.profile {
+   color: #ffffff;
+    text-align: left;
+    font: 500 12px/150% 'Roboto', sans-serif;
+    position: relative;
+   }
+
+
+
+  .card-card-with-image, .card-card-with-image * {
+    box-sizing: border-box;
+    }
+.card-card-with-image {
+   background: var(--white, #ffffff);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 352px;
+    position: relative;
+    box-shadow: var(--cardshadow-box-shadow, 0px 10px 20px -2px rgba(0, 0, 0, 0.04), 0px 2px 15px -3px rgba(0, 0, 0, 0.07));
+    overflow: hidden;
+   }
+
+.image {
+   flex-shrink: 230px 234px;
+    width: 352px;
+    height: 235px;
+    position: relative;
+   }
+
+.card-body {
+   background: #5b64ae;
+   text-emphasis-color:white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.card-title-margin-bottom {
+   padding: 0px 0px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.heading {
+   display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.heading-h-5 {
+   color: var(--body-text-color, #4f4f4f);
+    text-align: left;
+    font: var(--heading-h-5, 500 20px/120% 'Roboto', sans-serif);
+    position: relative;
+    flex: 1;
+   }
+
+.paragraph-margin-bottom {
+   padding: 0px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.paragraph {
+   display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+   flex-shrink: 0;
+    position: relative;
+   }
+
+.paragraph-standard {
+   color: var(--body-text-color, #4f4f4f);
+    text-align: left;
+    font: var(--paragraph-standard, 400 16px/160% 'Roboto', sans-serif);
+    position: relative;
+    flex: 1;
+   }
+
+.button {
+   background: var(--primary, #3b71ca);
+    border-radius: 4px;
+    padding: 10px 24px 8px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 0px 4px 9px -4px rgba(59, 113, 202, 1.00);
+    overflow: hidden;
+   }
+
+.button2 {
+   color: #ffffff;
+    text-align: left;
+    font: 500 12px/150% 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+   }
+
 .card{
     padding: 5%;
     margin: 15px;
