@@ -37,3 +37,16 @@ footer {
     color: #ffffff;
 }
 
+
+/*profile css*/
+.your_contractor {
+    padding-left: 10rem !important;
+}
+.contractor_img {
+    width: 140px;
+    height: 123px;
+    margin-left: 11rem !important;
+}
+.card-profile {
+    background-color: #ffffff;
+}
