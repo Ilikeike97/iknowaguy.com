@@ -63,7 +63,18 @@ footer {
    float:none;
    padding: 20px;
 }
-.row
+
+.container-fluid{
+   background-color: #5B64AE;
+   color:white;
+   border-radius: 10 px;
+   padding: 20 px;
+}
+
+.img{
+   border-radius: 50%;
+   border-color: #f27405;
+}
 
 .card-title{
    color:white;
@@ -76,7 +87,7 @@ footer {
   background: var(--blue, #5b64ae);
   border-style: solid;
   border-color: #5B64AE;
-  border-width: 1px;
+  border-width: 15px;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -109,6 +120,7 @@ footer {
   flex-shrink: 0;
   position: relative;
 }
+.h4{ color:#ffffff}
 .heading-h-5 {
   color: #ffffff;
   text-align: left;
@@ -178,12 +190,12 @@ footer {
     --h-2: 400 50.52px "Oxygen", sans-serif;
     --h-3: 400 37.9px "Oxygen", sans-serif;
     --h-4: 400 28.43px "Oxygen", sans-serif;
-    --h-5: 400 16px "Oxygen", sans-serif;
-    --paragraph: 400 16px "Open Sans", sans-serif;
-    --small: 400 12px "Open Sans", sans-serif;
-  
+    --h-5: 400 18px "Oxygen", sans-serif;
+    --paragraph: 600 16px "Oxygen", sans-serif;
+    --small: 400 12px "Oxygen", sans-serif;
+}
     /* Effects */
-  }
+  
   .card-card-with-image, .card-card-with-image * {
     box-sizing: border-box;
     }
@@ -225,13 +237,30 @@ footer {
    padding: 0px 0px 8px 0px;
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 15px;
     align-items: flex-start;
     justify-content: flex-start;
     align-self: stretch;
    flex-shrink: 0;
     position: relative;
    }
+.py-5 {
+   padding: 1rem !important}
+
+h1{ 
+   font-weight: 700;
+   text-align: center;
+   text-decoration-line: #ffffff;
+   color:white;
+   background-color: #5B64AE;
+   margin-bottom: 15 px;
+}
+
+h3{
+   text-align: center;
+   font-style: oblique;
+}
+
 
 .heading {
    display: flex;
@@ -335,12 +364,13 @@ footer {
    background: #5b64ae;
    text-emphasis-color:white;
     padding: 24px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     gap: 0px;
     align-items: flex-start;
     justify-content: flex-start;
-    align-self: stretch;
+    align-self: auto;
    flex-shrink: 0;
     position: relative;
    }
@@ -376,6 +406,7 @@ footer {
     flex: 1;
    }
 
+ 
 .paragraph-margin-bottom {
    padding: 0px 0px 16px 0px;
     display: flex;
@@ -406,6 +437,10 @@ footer {
     position: relative;
     flex: 1;
    }
+.row {
+   --bs-gutter-y: 1 rem;
+}
+
 
 .button {
    background: var(--primary, #3b71ca);
@@ -430,10 +465,10 @@ footer {
     position: relative;
    }
 
-.card{
+.card {
     padding: 5%;
     margin: 15px;
-    background-color: #F27405;
+    padding: 20px;
 }
 
 /*button*/
